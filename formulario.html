@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioPractica</title>
+</head>
+<body>
+    <form action="iescalderonpracticas@educa.madrid.org" method="get">
+        <h1> Datos personales: </h1>
+        <hr>
+        <p> Nombre :
+            <input type="text" name="nombre" required><br>
+        <br>
+            Apellidos :
+            <input type="text" name="apellido" required><br>
+        <br>
+            Estado civil:
+            <select name="EstadoCivil">
+            <option value="Solter@" selected>Solter@</option>
+            <option value="Casad@">Casad@</option>
+            <option value="Viud@">Viud@</option>
+            </select> <br>
+        <br>
+            Sexo:
+        <br>
+            <input type="radio" name="Sexo" value="Hombre"> Hombre
+            <input type="radio" name="Sexo" value="Mujer">Mujer
+        <br>
+        <br>
+		    Escribe tus principales aficiones :<br>
+		<textarea name="Comentarios" rows="10" cols="100"></textarea>
+	    <br>
+        <hr>
+        <br>
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+        <br>
+        <br>
+        <hr>
+        </p>
+    </form>
+</body>
+</html>
